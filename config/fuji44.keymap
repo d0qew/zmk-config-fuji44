@@ -65,7 +65,7 @@
             bindings = <
 &trans  &kp NUMBER_1          &kp NUMBER_2           &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7               &kp NUMBER_8             &kp NUMBER_9  &kp NUMBER_0    &trans
 &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_ALT  &kp LEFT_GUI  &kp MINUS       &kp LEFT      &hrm RIGHT_GUI DOWN_ARROW  &hrm RIGHT_ALT UP_ARROW  &kp RIGHT     &kp APOSTROPHE  &trans
-&trans  &trans                &trans                 &trans        &trans        &trans          &kp GRAVE     &trans                     &trans                   &trans        &trans          &trans
+&trans  &trans                &trans                 &trans        &trans        &trans          &kp GRAVE     &trans                     &kp BACKSLASH            &trans        &trans          &trans
                               &trans                 &trans        &to 0         &trans          &trans        &trans                     &to 2                    &trans
             >;
         };
