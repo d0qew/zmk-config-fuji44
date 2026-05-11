@@ -72,7 +72,7 @@
 
         special-mouse {
             bindings = <
-&to 3   &trans  &trans  &trans  &trans  &trans       &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_MENU_INCREASE  &trans
+&to 3   &trans  &trans  &trans  &trans  &trans       &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_MENU_INCREASE  &kp C_BRIGHTNESS_INC
 &trans  &trans  &trans  &trans  &trans  &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN     &mmv MOVE_UP     &mmv MOVE_RIGHT       &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &msc SCRL_LEFT  &msc SCRL_DOWN     &msc SCRL_UP     &msc SCRL_RIGHT       &trans               &trans
                 &trans  &trans  &to 1   &mkp LCLK    &mkp RCLK       &trans             &to 0            &trans
