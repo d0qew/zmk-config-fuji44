@@ -123,7 +123,7 @@
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans           &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
 &trans  &trans  &kp UNDER  &kp MINUS  &kp EQUAL  &kp PLUS         &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW       &kp DOUBLE_QUOTES     &trans
-&trans  &trans  &trans     &trans     &trans     &kp BACKSLASH    &trans          &trans             &trans           &trans                &kp APOSTROPHE        &trans
+&trans  &trans  &trans     &trans     &kp PIPE   &kp BACKSLASH    &trans          &trans             &trans           &trans                &kp APOSTROPHE        &trans
                 &trans     &trans     &trans     &kp ESCAPE       &to 3           &trans             &trans           &trans
             >;
         };
