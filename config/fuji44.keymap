@@ -30,21 +30,21 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <15 14>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         right_gui {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <20 21>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         left_control {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <13 14>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         right_control {
@@ -58,14 +58,14 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <13 16>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         right_alt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <19 22>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <(-1)>;
         };
     };
 
