@@ -9,7 +9,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <19 20>;
+        };
+    };
 
     behaviors {
         ss_hs_modmorph: ss_hs_modmorph {
@@ -45,10 +52,10 @@
 
         master {
             bindings = <
-&trans  &kp Q  &kp W   &kp E   &kp R        &kp T             &kp Y              &kp U            &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S   &kp D   &kp F        &kp G             &kp H              &kp J            &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X   &kp C   &kp V        &kp B             &kp N              &kp M            &kp COMMA  &kp DOT  &kp FSLH  &trans
-               &trans  &trans  &lt 1 SPACE  &kp LEFT_SHIFT    &kp RIGHT_CONTROL  &lt 2 BACKSPACE  &trans     &trans
+&trans  &kp Q  &kp W   &kp E   &kp R  &kp T             &kp Y              &kp U  &kp I      &kp O    &kp P     &trans
+&trans  &kp A  &kp S   &kp D   &kp F  &kp G             &kp H              &kp J  &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X   &kp C   &kp V  &kp B             &kp N              &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
+               &trans  &trans  &mo 1  &kp LEFT_SHIFT    &kp RIGHT_CONTROL  &mo 2  &trans     &trans
             >;
         };
 
@@ -57,7 +64,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5        &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR      &kp MINUS           &kp UNDERSCORE     &kp AMPERSAND    &kp STAR      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp APOS      &kp PIPE      &kp PLUS      &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL     &kp BACKSLASH         &kp DOUBLE_QUOTES      &trans
-                      &trans        &trans        &trans          &trans              &kp ESC            &kp ENTER        &trans        &trans
+                      &trans        &trans        &trans          &trans              &kp BACKSPACE      &kp ENTER        &trans        &trans
             >;
         };
 
@@ -66,7 +73,7 @@
 &trans  &to 3   &trans  &trans        &trans        &trans         &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans
 &trans  &trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp PERCENT    &kp CARET             &kp RIGHT_GUI         &kp RIGHT_ALT      &trans           &trans  &trans
 &trans  &trans  &trans  &kp TILDE     &kp GRAVE     &trans         &kp LEFT_ARROW        &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT_ARROW  &trans  &trans
-                &trans  &trans        &trans        &kp TAB        &trans                &trans                &trans             &trans
+                &trans  &trans        &kp TAB       &kp SPACE      &trans                &trans                &trans             &trans
             >;
         };
 
