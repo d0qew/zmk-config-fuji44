@@ -18,6 +18,13 @@
             timeout-ms = <30>;
             require-prior-idle-ms = <(-1)>;
         };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <16 15>;
+            require-prior-idle-ms = <(-1)>;
+            timeout-ms = <30>;
+        };
     };
 
     behaviors {
