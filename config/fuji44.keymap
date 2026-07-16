@@ -9,16 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <(-1)>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         ss_hs_modmorph: ss_hs_modmorph {
@@ -66,7 +57,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5        &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR      &kp MINUS           &kp UNDERSCORE     &kp AMPERSAND    &kp STAR      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp APOS      &kp PIPE      &kp PLUS      &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL     &kp BACKSLASH         &kp DOUBLE_QUOTES      &trans
-                      &trans        &trans        &trans          &trans              &kp ENTER          &trans           &trans        &trans
+                      &trans        &trans        &trans          &trans              &kp ESCAPE         &kp ENTER        &trans        &trans
             >;
         };
 
